@@ -2,6 +2,8 @@ import sys
 import re
 from PartA import *
 
+print("\nPart B: Intersection of Two Files\n")
+
 file1 = sys.argv[1]
 file2 = sys.argv[2]
 

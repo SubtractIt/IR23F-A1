@@ -62,8 +62,12 @@ def printTokens(token_dict):
         print(f"{key} - {value}")
 
 # Runs our code
-# words = tokenize(filename)
-# # print(words)
-# tokens = computeWordFrequencies(words)
-# printTokens(tokens)
+def main():
+    print("\n Part A: Word Frequencies\n")
+    words = tokenize(filename)
+    # print(words)
+    tokens = computeWordFrequencies(words)
+    printTokens(tokens)
 
+if __name__ == "__main__":
+    main()
